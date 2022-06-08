@@ -1,0 +1,83 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: #00569f;
+	background-image: url("ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+	background-color: lightblue;
+	/*font changes*/
+	font-size: 1.2em;
+	font-weight: bold;
+	list-style: none;
+	/*bring the nav list to the left and fix width to 200px*/
+	width: 200px;
+	float: left;
+	margin: 0px;
+	padding-bottom: 50%;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+nav a {
+	color: #000033;
+	text-decoration: none;
+
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;
+}
+h2 {
+	color: #3399CC;
+}
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	/*background to fit with the content*/
+	background-color: white;
+}
+
+#wrapper {
+	/*dark banner background for the sunset*/
+	background-color: #000033;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	/*'main area' centering*/
+	margin: auto;
+	width: 80%;
+	min-width: 600px;
+}
+
+#content {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+.resort {
+	color: #3399cc;
+	font-weight: bold;
+}
+
+ul {
+	list-style-image: url("marker.gif");
+}
